@@ -13,7 +13,6 @@
  */
 package org.apache.camel.examples;
 
-import java.util.UUID;
 import javax.jms.ConnectionFactory;
 import org.apache.camel.ExchangePattern;
 import org.apache.camel.LoggingLevel;
@@ -21,7 +20,6 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.amqp.AMQPComponent;
 import org.apache.camel.spi.ComponentCustomizer;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -32,12 +30,6 @@ public class CamelRouteConfiguration extends RouteBuilder {
     return (component) -> {
       component.setConnectionFactory(jmsConnectionFactory);
     };
-  }
-  
-  @Bean
-  @Scope("prototype")
-  private String uuid() {
-    return UUID.randomUUID().toString();
   }
   
   @Override
