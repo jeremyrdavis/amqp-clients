@@ -15,7 +15,7 @@ amqphub:
 # Camel Spring Boot
 camel:
   springboot:
-    name: console-producer
+    name: amqp-console-producer
     main-run-controller: true
 
 # Logging

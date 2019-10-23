@@ -25,8 +25,8 @@ limitations under the License.
   <packaging>pom</packaging>
 
   <modules>
-    <module>console-consumer</module>
-    <module>console-producer</module>
+    <module>amqp-console-consumer</module>
+    <module>amqp-console-producer</module>
   </modules>
 
   <properties>
