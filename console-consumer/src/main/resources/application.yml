@@ -15,7 +15,7 @@ amqphub:
 # Camel Spring Boot
 camel:
   springboot:
-    name: camel-consumer
+    name: console-consumer
     main-run-controller: true
 
 # Logging
