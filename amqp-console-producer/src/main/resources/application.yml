@@ -22,4 +22,4 @@ camel:
 logging:
   level:
     root: ERROR
-    #org.apache.camel.examples: DEBUG
+    org.apache.camel.examples: DEBUG

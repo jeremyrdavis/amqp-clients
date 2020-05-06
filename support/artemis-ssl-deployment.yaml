@@ -7,9 +7,12 @@ spec:
     size: 2
     image: registry.redhat.io/amq7/amq-broker:7.6
   adminUser: admin
-  adminPassword: admin
+  adminPassword: redhat20
   console:
     expose: true
+    sslEnabled: true
+    sslSecret: ex-aao-amqp-secret
+    useClientAuth: true
   acceptors:
   - name: amqp
     protocols: amqp
