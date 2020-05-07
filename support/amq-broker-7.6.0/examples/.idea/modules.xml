@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/artemis-examples.iml" filepath="$PROJECT_DIR$/artemis-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/broker-features.iml" filepath="$PROJECT_DIR$/features/broker-features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protocols/protocols.iml" filepath="$PROJECT_DIR$/protocols/protocols.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protocols/amqp/queue/queue.iml" filepath="$PROJECT_DIR$/protocols/amqp/queue/queue.iml" />
+    </modules>
+  </component>
+</project>

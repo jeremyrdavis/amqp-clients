@@ -1,0 +1,12 @@
+# Created by buildmetadata-maven-plugin 1.7.0 ( SHA: 6f444cae ) 
+build.maven.version=3.6.2
+build.version=2.11.0.redhat-00005
+build.java.vm=OpenJDK 64-Bit Server VM
+build.version.full=2.11.0.redhat-00005
+build.java.compiler=HotSpot 64-Bit Tiered Compilers
+build.maven.execution.cmdline=verify -PnoServer
+build.groupId=org.apache.activemq.examples.amqp
+build.java.vendor=Oracle Corporation
+build.java.runtime.name=OpenJDK Runtime Environment
+build.java.runtime.version=11.0.6+9-jvmci-20.0-b02
+build.artifactId=amqp
