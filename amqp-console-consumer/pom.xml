@@ -23,6 +23,10 @@ limitations under the License.
     <artifactId>amqp-clients</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
+  <properties>
+    <jaxb.version>2.3.0.redhat-00003</jaxb.version>
+    <jaxb.impl.version>2.2.11.redhat-2</jaxb.impl.version>
+  </properties>
 
   <artifactId>amqp-console-consumer</artifactId>
 
@@ -50,6 +54,22 @@ limitations under the License.
     <dependency>
       <groupId>org.messaginghub</groupId>
       <artifactId>pooled-jms</artifactId>
+    </dependency>
+    <!-- JAXB dependencies -->
+    <dependency>
+      <groupId>javax.xml.bind</groupId>
+      <artifactId>jaxb-api</artifactId>
+      <version>${jaxb.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.xml.bind</groupId>
+      <artifactId>jaxb-core</artifactId>
+      <version>${jaxb.impl.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.xml.bind</groupId>
+      <artifactId>jaxb-impl</artifactId>
+      <version>${jaxb.impl.version}</version>
     </dependency>
   </dependencies>
 

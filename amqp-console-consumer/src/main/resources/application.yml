@@ -8,7 +8,8 @@ amqphub:
   amqp10jms:
     pool:
       enabled: true
-    remote-url: amqp://localhost:61616
+    remote-url: amqps://ex-aao-amqp-0-svc-rte-broker.apps.tnt.ocp4ninja.com:443?jms.username=admin&jms.password=admin&transport.keyStoreLocation=/Users/jeremydavis/Demos/AMQ/Broker3/amqp-clients/support/client.ks&transport.keyStorePassword=password&transport.trustStoreLocation=/Users/jeremydavis/Demos/AMQ/Broker3/amqp-clients/support/client.ts&transport.trustStorePassword=password&transport.verifyHost=false
+#    remote-url: amqp://localhost:61616
     #username: admin
     #password: admin
 
